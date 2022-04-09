@@ -28,13 +28,13 @@ h1, h2, h3, h4, h5 {
 }
 /*NAVBAR END*/
 
-/*PRESENTATION SECTION*/
-#presentation > h2:nth-child(1) {
-  font-size: 2rem;
+.titleSections {
+  font-size: 2.5rem;
   text-transform: uppercase;
   margin: 10px 0 50px 0;
 }
 
+/*PRESENTATION SECTION*/
 #presentation > div:nth-child(2) > article > div {
   background-color: var(--turquoise);
   text-align: center;
@@ -43,3 +43,27 @@ h1, h2, h3, h4, h5 {
 }
 
 /*PRESENTATION SECTION END*/
+
+/*FEATURED SECTION*/
+#featured > div > article > div {
+  height: 100%;
+  background-color: var(--turquoise);
+}
+
+#featured > div > article > div .card-title {
+  font-size: 2rem;
+}
+
+#featured > div > article > div .card-text {
+  margin-bottom: 15px;
+}
+
+#featured > div > article > div > .cardImgContainer {
+  height: 200px;
+}
+
+#featured > div > article > div > .cardImgContainer img {
+  height: 100%;
+  object-fit: cover;
+}
+/*FEATURED SECTION END*/
