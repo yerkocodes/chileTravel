@@ -67,3 +67,10 @@ h1, h2, h3, h4, h5 {
   object-fit: cover;
 }
 /*FEATURED SECTION END*/
+
+/*CONTACT SECTION*/
+#contact > div button {
+  background-color: var(--turquoise);
+  color: white;
+}
+/*CONTACT SECTION END*/
